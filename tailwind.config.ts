@@ -13,6 +13,9 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        pretendard: ['Pretendard', 'sans-serif'],
+      },
       colors: {
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
@@ -22,6 +25,7 @@ const config = {
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))',
+          500: '#1E40AF',
         },
         secondary: {
           DEFAULT: 'hsl(var(--secondary))',
@@ -38,6 +42,7 @@ const config = {
         accent: {
           DEFAULT: 'hsl(var(--accent))',
           foreground: 'hsl(var(--accent-foreground))',
+          500: '#7C3AED',
         },
         popover: {
           DEFAULT: 'hsl(var(--popover))',
@@ -47,6 +52,8 @@ const config = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+        dark: '#0B0E1A',
+        light: '#E5E7EB',
       },
       borderRadius: {
         lg: 'var(--radius)',
