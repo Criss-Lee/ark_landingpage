@@ -3,6 +3,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Users, Lightbulb, Zap } from 'lucide-react';
 import Image from 'next/image';
+import { IMAGES } from '@/constants/images';
 
 export function SolutionSection() {
   const solutions = [
@@ -43,7 +44,7 @@ export function SolutionSection() {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-20">
         <Image
-          src="/images/자동화의 용암지대(가로).png"
+          src={IMAGES.AUTOMATION_LAVA}
           alt="자동화의 용암지대"
           fill
           style={{ objectFit: 'cover', objectPosition: 'center' }}

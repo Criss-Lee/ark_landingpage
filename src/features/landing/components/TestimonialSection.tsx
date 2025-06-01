@@ -4,6 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Quote } from 'lucide-react';
 import Image from 'next/image';
+import { IMAGES } from '@/constants/images';
 
 export function TestimonialSection() {
   const testimonials = [
@@ -29,7 +30,7 @@ export function TestimonialSection() {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-20">
         <Image
-          src="/images/노다지 황금섬(Upscale).png"
+          src={IMAGES.GOLD_ISLAND}
           alt="노다지 황금섬"
           fill
           style={{ objectFit: 'cover', objectPosition: 'center' }}

@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Check, Star } from 'lucide-react';
 import Image from 'next/image';
+import { IMAGES } from '@/constants/images';
 
 export function PricingSection() {
   const plans = [
@@ -66,7 +67,7 @@ export function PricingSection() {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-15">
         <Image
-          src="/images/툴킷의 정원(Upscale).png"
+          src={IMAGES.TOOLKIT_GARDEN}
           alt="툴킷의 정원"
           fill
           className="object-cover object-center"

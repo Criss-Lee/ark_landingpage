@@ -3,6 +3,7 @@
 import { Button } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 import Image from 'next/image';
+import { IMAGES } from '@/constants/images';
 
 export function Hero() {
   const scrollToForm = () => {
@@ -19,7 +20,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 -z-20 opacity-30">
         <Image
-          src="/images/02. 디지털 홍수의 시대(glow) - 세로.jpg"
+          src={IMAGES.DIGITAL_FLOOD_ERA}
           alt="디지털 대홍수 시대"
           fill
           className="object-cover object-center"
@@ -30,7 +31,7 @@ export function Hero() {
       <div className="max-w-4xl mx-auto">
         <div className="mb-8">
           <Image 
-            src="/images/Logo(png).png" 
+            src={IMAGES.LOGO} 
             alt="노다의 방주 로고" 
             width={225}
             height={75}

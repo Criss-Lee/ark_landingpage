@@ -90,3 +90,14 @@ easynext sentry
 # Google Adsense
 easynext adsense
 ```
+
+## Vercel 배포 방법
+
+이 프로젝트는 Vercel에 쉽게 배포할 수 있습니다:
+
+1. [Vercel](https://vercel.com)에 가입하고 로그인합니다.
+2. 새 프로젝트를 생성하고 이 GitHub 저장소를 연결합니다.
+3. 기본 설정을 유지하고 "Deploy" 버튼을 클릭합니다.
+4. 배포가 완료되면 제공된 URL로 접속하여 웹사이트를 확인할 수 있습니다.
+
+환경 변수가 필요한 경우, Vercel 대시보드의 프로젝트 설정에서 추가할 수 있습니다.

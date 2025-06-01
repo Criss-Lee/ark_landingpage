@@ -3,6 +3,7 @@
 import { Card } from '@/components/ui/card';
 import { Clock, Search, FileSpreadsheet, MoonStar } from 'lucide-react';
 import Image from 'next/image';
+import { IMAGES } from '@/constants/images';
 
 export function ProblemSection() {
   const problems = [
@@ -33,7 +34,7 @@ export function ProblemSection() {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-20">
         <Image
-          src="/images/기초의 해변(Upscale) - 가로.png"
+          src={IMAGES.BEACH_FOUNDATION}
           alt="기초의 해변"
           fill
           style={{ objectFit: 'cover', objectPosition: 'center' }}

@@ -11,6 +11,7 @@ import {
   CONTACT_FORM_FINAL_MESSAGE,
 } from '@/features/landing/constants/contact-form.constants';
 import { ContactForm } from '@/features/landing/components/ContactForm';
+import { IMAGES } from '@/constants/images';
 
 export function ContactSection() {
   return (
@@ -18,7 +19,7 @@ export function ContactSection() {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-20">
         <Image
-          src="/images/립 업 스트림.png"
+          src={IMAGES.LIP_UP_STREAM}
           alt="립 업 스트림"
           fill
           className="object-cover object-center"
